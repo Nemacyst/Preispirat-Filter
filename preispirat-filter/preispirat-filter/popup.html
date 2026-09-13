@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Preispirat Filter</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        width: 260px;
+        padding: 12px;
+        margin: 0;
+        color: #1c2b39;
+      }
+      h1 {
+        font-size: 14px;
+        margin: 0 0 8px;
+      }
+      p.hint {
+        font-size: 11px;
+        color: #666;
+        margin: 0 0 10px;
+      }
+      .row {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 10px;
+      }
+      input[type="text"] {
+        flex: 1;
+        padding: 6px 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 13px;
+      }
+      button {
+        padding: 6px 10px;
+        border: none;
+        border-radius: 4px;
+        background: #1e3f8f;
+        color: white;
+        font-size: 13px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #16306e;
+      }
+      #list {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        max-height: 220px;
+        overflow-y: auto;
+      }
+      .user-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #f2f4f7;
+        border-radius: 4px;
+        padding: 4px 8px;
+        font-size: 13px;
+      }
+      .user-row button {
+        background: transparent;
+        color: #c0392b;
+        padding: 0 4px;
+        font-size: 14px;
+      }
+      .user-row button:hover {
+        background: transparent;
+        color: #922b21;
+      }
+      #empty {
+        font-size: 12px;
+        color: #888;
+        padding: 6px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Preispirat Filter</h1>
+    <p class="hint">
+      Beiträge dieser Nutzer werden auf preispirat.ch ausgeblendet.
+    </p>
+    <div class="row">
+      <input type="text" id="newUser" placeholder="Nutzername" />
+      <button id="addBtn">+</button>
+    </div>
+    <div id="list"></div>
+    <div id="empty" style="display: none;">Noch keine Nutzer blockiert.</div>
+    <script src="popup.js"></script>
+  </body>
+</html>
