@@ -4,10 +4,10 @@
 
 > For a cleaner, more personal deal overview – without spam and unwanted posts.
 
-[![Chrome](https://img.shields.io/badge/Chrome-Extension-blue?logo=googlechrome)](https://chromewebstore.google.com/detail/preispirat-filter/jnkicobhnhdfncbelaloeldemookpkho)
-[![Brave](https://img.shields.io/badge/Brave-Extension-orange?logo=brave)](https://chromewebstore.google.com/detail/preispirat-filter/jnkicobhnhdfncbelaloeldemookpkho)
-[![Manifest](https://img.shields.io/badge/Manifest-V3-green)](https://developer.chrome.com/docs/extensions/mv3/intro/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![Chrome](https://img.shields.io/badge/Chrome-Extension-blue?logo=googlechrome&style=for-the-badge)](https://chromewebstore.google.com/detail/preispirat-filter/jnkicobhnhdfncbelaloeldemookpkho)
+[![Brave](https://img.shields.io/badge/Brave-Extension-orange?logo=brave&style=for-the-badge)](https://chromewebstore.google.com/detail/preispirat-filter/jnkicobhnhdfncbelaloeldemookpkho)
+[![Manifest](https://img.shields.io/badge/Manifest-V3-green&style=for-the-badge)](https://developer.chrome.com/docs/extensions/mv3/intro/)
+[![License](https://img.shields.io/badge/License-MIT-yellow&style=for-the-badge)](LICENSE)
 
 ---
 
