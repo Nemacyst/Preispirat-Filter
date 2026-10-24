@@ -4,7 +4,7 @@
 
 > Für eine aufgeräumtere, persönlichere Deal-Übersicht – ohne Spam und ohne unerwünschte Beiträge.
 
-![Chrome](https://img.shields.io/badge/Chrome-Extension-blue?logo=googlechrome)
+[![Chrome](https://img.shields.io/badge/Chrome-Extension-blue?logo=googlechrome)](https://chromewebstore.google.com/detail/preispirat-filter/jnkicobhnhdfncbelaloeldemookpkho)
 ![Manifest](https://img.shields.io/badge/Manifest-V3-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
