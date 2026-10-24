@@ -30,7 +30,7 @@
 ## 💻 Usage
 
 1. Click the extension icon.
-2. Enter a username (e.g. `Arlinda`) and confirm with **Add** or Enter.
+2. Enter a username and confirm with **Add** or Enter.
 3. Reload preispirat.ch or continue scrolling – posts from these users are automatically hidden.
 4. Click the **✕** next to a name to remove it.
 
