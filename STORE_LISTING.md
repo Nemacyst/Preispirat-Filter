@@ -1,45 +1,43 @@
-# Chrome Web Store – Eintragstexte
+# Chrome Web Store – Listing Texts
 
-## Kurzbeschreibung (max. 132 Zeichen, erscheint in der Suche)
-Blendet Beiträge bestimmter Nutzer auf preispirat.ch aus – für eine aufgeräumtere Deal-Übersicht.
+## Short Description (max. 132 characters, appears in search)
+Hides posts from specific users on preispirat.ch – for a cleaner deal overview.
 
-(131 Zeichen)
+(131 characters)
 
-## Ausführliche Beschreibung
+## Detailed Description
 
-Preispirat Filter blendet Deal-Beiträge bestimmter Nutzer auf
-preispirat.ch automatisch aus.
+Preispirat Filter automatically hides deal posts from specific users on
+preispirat.ch.
 
-Trage im Popup einfach die Nutzernamen ein, deren Beiträge du nicht mehr
-sehen möchtest – die Erweiterung erledigt den Rest, auch wenn beim
-Scrollen laufend neue Deals nachgeladen werden.
+Simply enter the usernames in the popup whose posts you no longer want to
+see – the extension takes care of the rest, even when new deals are
+continuously loaded while scrolling.
 
-Funktionen:
-• Beliebig viele Nutzernamen blockieren und wieder entfernen
-• Automatische Erkennung neu geladener Deals (Infinite Scroll)
-• Einstellungen werden über den Chrome-Sync geräteübergreifend gespeichert
-• Keine Datenübertragung an Dritte – alles läuft lokal im Browser
+Features:
+• Block and remove any number of usernames
+• Automatic detection of newly loaded deals (Infinite Scroll)
+• Settings are synced across devices via Chrome Sync
+• No data transfer to third parties – everything runs locally in the browser
 
-Diese Erweiterung ist ein inoffizielles Community-Tool und steht in
-keiner Verbindung zu preispirat.ch.
+This extension is an unofficial community tool and is not affiliated with
+preispirat.ch.
 
-## Kategorie
-Produktivität (Productivity)
+## Category
+Productivity
 
-## Datenschutz-Hinweise für das Formular im Dashboard
-- Einzelner Zweck: Nutzer können Beiträge bestimmter preispirat.ch-Nutzer
-  ausblenden.
-- Host-Berechtigung (preispirat.ch) Begründung: Der Content-Script muss
-  die Seite nach Nutzernamen durchsuchen und passende Beiträge
-  ausblenden können.
-- storage-Berechtigung Begründung: Speichert die vom Nutzer eingegebene
-  Blockliste lokal bzw. im Chrome-Sync.
-- Es werden keine Nutzerdaten gesammelt, übertragen oder verkauft.
-  (Bei "Are you using remote code?" → Nein.)
+## Privacy Notes for the Dashboard Form
+- Single purpose: Users can hide posts from specific preispirat.ch users.
+- Host permission (preispirat.ch) justification: The content script needs to
+  search the page for usernames and hide matching posts.
+- storage permission justification: Stores the blocklist entered by the user
+  locally or in Chrome Sync.
+- No user data is collected, transmitted, or sold.
+  (For "Are you using remote code?" → No.)
 
-## Benötigte Assets zum Hochladen
-- icons/icon128.png (bereits im Ordner, wird zusätzlich für den
-  Store-Eintrag als "Store-Icon" separat hochgeladen)
-- Mind. 1 Screenshot (1280x800 oder 640x400): am besten ein Screenshot
-  der preispirat.ch-Startseite mit ausgeblendeten Beiträgen sowie einen
-  vom Popup mit ein paar Beispielnamen.
+## Required Assets for Upload
+- icons/icon128.png (already in the folder, also uploaded separately as the
+  "Store Icon" for the store listing)
+- At least 1 screenshot (1280x800 or 640x400): ideally a screenshot of the
+  preispirat.ch homepage with hidden posts as well as one of the popup with
+  a few example names.
