@@ -58,12 +58,6 @@ Since preispirat.ch can change its structure, the logic is intentionally conserv
 
 *Hide users specifically – directly via the popup*
 
-## 🛤️ Chrome Web Store
-
-The extension is available on the Chrome Web Store:
-
-**[Install Preispirat Filter](https://chromewebstore.google.com/detail/preispirat-filter/jnkicobhnhdfncbelaloeldemookpkho)**
-
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
