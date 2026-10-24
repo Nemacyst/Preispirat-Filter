@@ -1,8 +1,8 @@
 # 🏴‍☠️ Preispirat Filter
 
-**Eine schlanke Chrome-Erweiterung, die Deal-Beiträge bestimmter Nutzer auf [preispirat.ch](https://www.preispirat.ch) ausblendet.**
+**A lightweight Chrome extension that hides deal posts from specific users on [preispirat.ch](https://www.preispirat.ch).**
 
-> Für eine aufgeräumtere, persönlichere Deal-Übersicht – ohne Spam und ohne unerwünschte Beiträge.
+> For a cleaner, more personal deal overview – without spam and unwanted posts.
 
 [![Chrome](https://img.shields.io/badge/Chrome-Extension-blue?logo=googlechrome)](https://chromewebstore.google.com/detail/preispirat-filter/jnkicobhnhdfncbelaloeldemookpkho)
 [![Brave](https://img.shields.io/badge/Brave-Extension-orange?logo=brave)](https://chromewebstore.google.com/detail/preispirat-filter/jnkicobhnhdfncbelaloeldemookpkho)
@@ -13,59 +13,59 @@
 
 ## ✨ Features
 
-- 🚫 Beliebig viele Nutzernamen blockieren (und wieder entfernen)
-- 🔄 Automatische Erkennung neu geladener Deals (Infinite Scroll / MutationObserver)
-- 📱 Einstellungen werden über `chrome.storage.sync` geräteübergreifend synchronisiert
-- 🔒 100 % lokal – keine Daten werden an Dritte übertragen
-- 🎨 Einfaches, übersichtliches Popup
+- 🚫 Block any number of usernames (and remove them again)
+- 🔄 Automatic detection of newly loaded deals (Infinite Scroll / MutationObserver)
+- 📱 Settings are synced across devices via `chrome.storage.sync`
+- 🔒 100% local – no data is sent to third parties
+- 🎨 Simple, clean popup
 
-## 📦 Installation (Entwicklermodus)
+## 📦 Installation (Developer Mode)
 
-1. Repository klonen oder als ZIP herunterladen.
-2. In Chrome zu `chrome://extensions` gehen.
-3. Oben rechts **Entwicklermodus** aktivieren.
-4. Auf **Entpackte Erweiterung laden** klicken und den **Root-Ordner** dieses Repositories auswählen (dort liegt die `manifest.json`).
-5. Die Erweiterung erscheint in der Symbolleiste (ggf. anpinnen).
+1. Clone the repository or download it as a ZIP.
+2. Go to `chrome://extensions` in Chrome.
+3. Enable **Developer mode** in the top right.
+4. Click **Load unpacked** and select the **root folder** of this repository (where `manifest.json` is located).
+5. The extension will appear in the toolbar (pin it if needed).
 
-> **Tipp:** Die Erweiterung funktioniert nur auf `https://www.preispirat.ch/*`.
+> **Tip:** The extension only works on `https://www.preispirat.ch/*`.
 
-## 💻 Benutzung
+## 💻 Usage
 
-1. Auf das Erweiterungssymbol klicken.
-2. Nutzernamen eintragen (z. B. `Arlinda`) und mit **Hinzufügen** oder Enter bestätigen.
-3. Preispirat.ch neu laden oder weiter scrollen – Beiträge dieser Nutzer werden automatisch ausgeblendet.
-4. Zum Entfernen auf das **✕** neben dem Namen klicken.
+1. Click the extension icon.
+2. Enter a username (e.g. `Arlinda`) and confirm with **Add** or Enter.
+3. Reload preispirat.ch or continue scrolling – posts from these users are automatically hidden.
+4. Click the **✕** next to a name to remove it.
 
-## 🛠️ Funktionsweise
+## 🛠️ How It Works
 
-Die Erweiterung sucht nach Textknoten, die exakt einem blockierten Nutzernamen entsprechen, und blendet den umgebenden Deal-Container aus.
+The extension looks for text nodes that exactly match a blocked username and hides the surrounding deal container.
 
-Die Erkennung basiert auf einer Heuristik (`looksLikeCard` in `content.js`):
-- Container mit Bild + Preisangabe (CHF) oder Zeitangabe
-- Begrenzte Größe, damit nicht versehentlich zu viel ausgeblendet wird
+Detection is based on a heuristic (`looksLikeCard` in `content.js`):
+- Container with an image + price (CHF) or time indication
+- Limited size so that not too much is accidentally hidden
 
-Da preispirat.ch seine Struktur ändern kann, ist die Logik bewusst konservativ.
+Since preispirat.ch can change its structure, the logic is intentionally conservative.
 
-## 🔒 Datenschutz
+## 🔒 Privacy
 
-- Die Blockliste wird ausschliesslich lokal (bzw. via Chrome Sync) gespeichert.
-- Es werden keine Nutzerdaten gesammelt, übertragen oder verkauft.
-- Die Erweiterung hat nur Zugriff auf `preispirat.ch` und die Storage-API.
+- The blocklist is stored exclusively locally (or via Chrome Sync).
+- No user data is collected, transmitted, or sold.
+- The extension only has access to `preispirat.ch` and the Storage API.
 
 ## 📸 Screenshots
 
 ![Popup](screenshots/popup.png)
 
-*Nutzer gezielt ausblenden – direkt über das Popup*
+*Hide users specifically – directly via the popup*
 
 ## 🛤️ Chrome Web Store
 
-Texte und Hinweise für einen möglichen Store-Eintrag findest du in [`STORE_LISTING.md`](STORE_LISTING.md).
+Texts and notes for a possible store listing can be found in [`STORE_LISTING.md`](STORE_LISTING.md).
 
-## 📜 Lizenz
+## 📜 License
 
-Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Inoffizielles Community-Tool** – keine Verbindung zu preispirat.ch oder Preispirat GmbH.
+**Unofficial community tool** – not affiliated with preispirat.ch or Preispirat GmbH.
