@@ -21,18 +21,17 @@
 ## 📦 Installation (Entwicklermodus)
 
 1. Repository klonen oder als ZIP herunterladen.
-2. Den Ordner `preispirat-filter/preispirat-filter/` entpacken bzw. öffnen.
-3. In Chrome zu `chrome://extensions` gehen.
-4. Oben rechts **Entwicklermodus** aktivieren.
-5. Auf **Entpackte Erweiterung laden** klicken und den Ordner `preispirat-filter/preispirat-filter` auswählen.
-6. Die Erweiterung erscheint in der Symbolleiste (ggf. anpinnen).
+2. In Chrome zu `chrome://extensions` gehen.
+3. Oben rechts **Entwicklermodus** aktivieren.
+4. Auf **Entpackte Erweiterung laden** klicken und den **Root-Ordner** dieses Repositories auswählen (dort liegt die `manifest.json`).
+5. Die Erweiterung erscheint in der Symbolleiste (ggf. anpinnen).
 
 > **Tipp:** Die Erweiterung funktioniert nur auf `https://www.preispirat.ch/*`.
 
 ## 💻 Benutzung
 
 1. Auf das Erweiterungssymbol klicken.
-2. Nutzernamen eintragen (z. B. `Arlinda`) und mit **+** oder Enter bestätigen.
+2. Nutzernamen eintragen (z. B. `Arlinda`) und mit **Hinzufügen** oder Enter bestätigen.
 3. Preispirat.ch neu laden oder weiter scrollen – Beiträge dieser Nutzer werden automatisch ausgeblendet.
 4. Zum Entfernen auf das **✕** neben dem Namen klicken.
 
@@ -54,12 +53,13 @@ Da preispirat.ch seine Struktur ändern kann, ist die Logik bewusst konservativ.
 
 ## 📸 Screenshots
 
-*(Hier können Screenshots des Popups und der gefilterten Seite eingefügt werden)*
+![Popup](screenshots/popup.png)
+
+*Nutzer gezielt ausblenden – direkt über das Popup*
 
 ## 🛤️ Chrome Web Store
 
-Texte und Hinweise für einen möglichen Store-Eintrag findest du in  
-[`preispirat-filter/preispirat-filter/STORE_LISTING.md`](preispirat-filter/preispirat-filter/STORE_LISTING.md).
+Texte und Hinweise für einen möglichen Store-Eintrag findest du in [`STORE_LISTING.md`](STORE_LISTING.md).
 
 ## 🤝 Beitragen
 
