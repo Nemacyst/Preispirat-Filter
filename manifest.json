@@ -6,9 +6,9 @@
   "permissions": ["storage"],
   "host_permissions": ["https://www.preispirat.ch/*"],
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "16": "preispirat-filter/preispirat-filter/icons/icon16.png",
+    "48": "preispirat-filter/preispirat-filter/icons/icon48.png",
+    "128": "preispirat-filter/preispirat-filter/icons/icon128.png"
   },
   "content_scripts": [
     {
@@ -21,9 +21,9 @@
     "default_popup": "popup.html",
     "default_title": "Preispirat Filter",
     "default_icon": {
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
+      "16": "preispirat-filter/preispirat-filter/icons/icon16.png",
+      "48": "preispirat-filter/preispirat-filter/icons/icon48.png",
+      "128": "preispirat-filter/preispirat-filter/icons/icon128.png"
     }
   }
 }
