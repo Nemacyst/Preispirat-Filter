@@ -43,7 +43,7 @@ Die Erkennung basiert auf einer Heuristik (`looksLikeCard` in `content.js`):
 - Container mit Bild + Preisangabe (CHF) oder Zeitangabe
 - Begrenzte Größe, damit nicht versehentlich zu viel ausgeblendet wird
 
-Da preispirat.ch seine Struktur ändern kann, ist die Logik bewusst konservativ. Feedback ist willkommen!
+Da preispirat.ch seine Struktur ändern kann, ist die Logik bewusst konservativ.
 
 ## 🔒 Datenschutz
 
