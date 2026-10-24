@@ -61,15 +61,6 @@ Da preispirat.ch seine Struktur ändern kann, ist die Logik bewusst konservativ.
 
 Texte und Hinweise für einen möglichen Store-Eintrag findest du in [`STORE_LISTING.md`](STORE_LISTING.md).
 
-## 🤝 Beitragen
-
-Issues und Pull Requests sind willkommen!
-
-Besonders hilfreich sind:
-- Verbesserungen der Erkennungslogik
-- UI/UX-Verbesserungen am Popup
-- Übersetzungen oder Dokumentation
-
 ## 📜 Lizenz
 
 Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
