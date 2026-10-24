@@ -60,7 +60,9 @@ Since preispirat.ch can change its structure, the logic is intentionally conserv
 
 ## 🛤️ Chrome Web Store
 
-Texts and notes for a possible store listing can be found in [`STORE_LISTING.md`](STORE_LISTING.md).
+The extension is available on the Chrome Web Store:
+
+**[Install Preispirat Filter](https://chromewebstore.google.com/detail/preispirat-filter/jnkicobhnhdfncbelaloeldemookpkho)**
 
 ## 📜 License
 
