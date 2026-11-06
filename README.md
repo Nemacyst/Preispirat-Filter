@@ -54,7 +54,6 @@ Since preispirat.ch can change its structure, the logic is intentionally conserv
 
 ![Popup](screenshots/popup.png)
 
-*Hide users specifically – directly via the popup*
 
 ## 📜 License
 
