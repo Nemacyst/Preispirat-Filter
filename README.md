@@ -50,7 +50,7 @@ Since preispirat.ch can change its structure, the logic is intentionally conserv
 - No user data is collected, transmitted, or sold.
 - The extension only has access to `preispirat.ch` and the Storage API.
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 ![Popup](screenshots/popup.png)
 
