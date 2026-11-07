@@ -1,6 +1,6 @@
 # 🏴‍☠️ Preispirat Filter
 
-**A lightweight Chrome extension that hides deal posts from specific users on [preispirat.ch](https://www.preispirat.ch).**
+**A lightweight Chrome extension that hides deal posts from specific users on [preispirat.ch](https://www.preispirat.ch)**
 
 > For a cleaner, more personal deal overview – without spam and unwanted posts.
 
